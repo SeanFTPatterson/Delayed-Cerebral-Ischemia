@@ -10,7 +10,7 @@ status,Retained,#e8f5ee,#23613b
 status,Under review,#fff6dd,#7a5a00
 status,Identified,#edf4ff,#285ea8
 domain-match,Good,#E8F2E1,#315C1F
-domain-match,Partially good,#FFF4BF,#725B00
-domain-match,Partially poor,#FCE6CF,#8A4A08
+domain-match,Somewhat good,#FFF4BF,#725B00
+domain-match,Somewhat poor,#FCE6CF,#8A4A08
 domain-match,Poor,#F8DDE2,#8C1630
 domain-match,No evidence / Unable to assess,#FFFFFF,#666666
