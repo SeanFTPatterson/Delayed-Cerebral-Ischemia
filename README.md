@@ -5,7 +5,7 @@
 - `images/` contains the SAH HOPE logo and instrument graphics.
 - URL fields can render as clickable links with link text configured entirely in `data/fields.csv`.
 
-This version is configured for the **Rebleeding** core domain only.
+This version is configured for the **Delayed Cerebral Ischemia** core domain only.
 
 ## Folder structure
 
@@ -144,8 +144,8 @@ Example:
 
 ```csv
 id,name,domain_match,domain_match_rationale
-DCI001,Example Instrument,Yes,"Directly assesses the intended Rebleeding domain."
-DCI002,Another Instrument,Partially / with concerns,"Captures some evidence of recurrent bleeding but has limitations for consistently identifying the intended Rebleeding event."
+DCI001,Example Instrument,Yes,"Directly assesses the intended Delayed Cerebral Ischemia domain."
+DCI002,Another Instrument,Partially / with concerns,"Captures some relevant features but has limitations for consistently identifying the intended Delayed Cerebral Ischemia event."
 ```
 
 If `domain_match_rationale` is also listed in `data/fields.csv`, configure it as a hidden field:
@@ -161,7 +161,7 @@ search = No
 
 When a badge has a non-empty rationale:
 
-- a small `ⓘ` appears inside the badge;
+- the badge itself remains visually unchanged but is interactive when a rationale is available;
 - **hovering** over the badge shows the rationale;
 - **keyboard focus** shows the rationale;
 - **clicking or tapping** pins the rationale open for touch-screen users;

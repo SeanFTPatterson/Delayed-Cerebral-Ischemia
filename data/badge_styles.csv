@@ -14,3 +14,8 @@ domain-match,Somewhat good,#FFF4BF,#725B00
 domain-match,Somewhat poor,#FCE6CF,#8A4A08
 domain-match,Poor,#F8DDE2,#8C1630
 domain-match,No evidence / Unable to assess,#FFFFFF,#666666
+feasibility,Good,#E8F2E1,#315C1F
+feasibility,Somewhat good,#FFF4BF,#725B00
+feasibility,Somewhat poor,#FCE6CF,#8A4A08
+feasibility,Poor,#F8DDE2,#8C1630
+feasibility,No evidence / Unable to assess,#FFFFFF,#666666
